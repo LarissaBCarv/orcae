@@ -28,7 +28,7 @@ O usuário escolhe uma categoria (ex: "Fazer Festa", "Montar PC", "Viajar") e o 
 
 - HTML, CSS e JavaScript
 - Foco em responsividade e acessibilidade
-- (Caso esteja usando: React + Vite)
+- React + Vite
 - Git + GitHub para versionamento
 - Projeto em constante evolução
 
