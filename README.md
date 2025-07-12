@@ -1,12 +1,64 @@
-# React + Vite
+# 💸 Orçaê
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Orçamentos prontos, atualizados e feitos pra você!
 
-Currently, two official plugins are available:
+O **Orçaê** é uma plataforma que automatiza a criação de orçamentos personalizados em diversas categorias — como montar um PC, organizar festas, planejar viagens e muito mais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A ideia é simples: você escolhe uma categoria, e o Orçaê entrega um orçamento completo, com os melhores preços do mercado atualizados diariamente e links confiáveis para compra.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Funcionalidades
+
+- ✅ Orçamentos atualizados todos os dias
+- 🔗 Links e lojas confiáveis
+- 📦 Produtos reais e acessíveis
+- 🎯 Interface simples, direta e divertida
+- 💬 Acesso com ou sem login
+
+---
+
+## 🧠 Como funciona
+
+O usuário escolhe uma categoria (ex: "Fazer Festa", "Montar PC", "Viajar") e o sistema apresenta um orçamento pronto, montado com os melhores preços coletados automaticamente, já com links diretos para compra dos produtos.
+
+---
+
+## 🔧 Tecnologias utilizadas
+
+- HTML, CSS e JavaScript
+- Foco em responsividade e acessibilidade
+- (Caso esteja usando: React + Vite)
+- Git + GitHub para versionamento
+- Projeto em constante evolução
+
+---
+
+## 🧪 Status do projeto
+
+🚧 **Em desenvolvimento**  
+Este projeto está sendo construído a partir de protótipos visuais no Canva e passará por melhorias contínuas durante o processo de codificação.
+
+---
+
+## 🛠️ Em breve:
+
+- Painel de admin para atualização de preços
+- Área de favoritos
+- Integração com API de busca de produtos
+- Deploy completo com CI/CD
+
+---
+
+## 👩‍💻 Feito por
+
+Desenvolvido e idealizado por **Larissa Carvalho**, como projeto autoral para aprendizado prático e portfólio.
+
+---
+
+## 📬 Contato
+
+[LinkedIn](https://www.linkedin.com/in/seu-usuario)  
+[E-mail](mailto:seuemail@exemplo.com)
+
+---
