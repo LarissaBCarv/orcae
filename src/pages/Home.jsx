@@ -1,8 +1,25 @@
+import Header from "../components/Header";
+import banner from "../assets/banner.png";
+import Footer from "../components/Footer";
+import MascoteGif from "../components/MascoteGif";
+import Carousel from "../components/Carousel";
+
 function Home() {
   return (
-    <div style={{ padding: "2rem", fontFamily: "Arial, sans-serif" }}>
-      <h1>Bem-vinda ao Orçaê!</h1>
-      <p>Monte orçamentos incríveis de forma automática e inteligente. 🚀</p>
+    <div>
+      <Header />
+      <img src={banner} alt="Banner decorativo" className="banner-img" />
+      <section className="content-section">
+        <div className="left-side">
+          <Carousel />
+          <p style={{ marginTop: "1rem", fontFamily: "Arial, sans-serif" }}>
+            Aqui vai o texto explicativo
+          </p>
+        </div>
+
+        <MascoteGif />
+      </section>
+      <Footer />
     </div>
   );
 }
