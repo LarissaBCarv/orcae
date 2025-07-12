@@ -58,7 +58,7 @@ Desenvolvido e idealizado por **Larissa Carvalho**, como projeto autoral para ap
 
 ## 📬 Contato
 
-[LinkedIn](https://www.linkedin.com/in/seu-usuario)  
-[E-mail](mailto:seuemail@exemplo.com)
+[LinkedIn](https://www.linkedin.com/in/larissabcarvalhodev)  
+[E-mail](mailto:l.carvaborges@gmail.com)
 
 ---
