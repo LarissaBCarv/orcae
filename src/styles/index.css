@@ -1,0 +1,61 @@
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 16px; /* importante definir */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-image: url("/fundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #a23d2a;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 24px;
+}
+
+/* Fontes utilitárias */
+.montserrat-400 {
+  font-weight: 400;
+}
+
+.montserrat-700 {
+  font-weight: 700;
+}
+
+/* Responsividade global */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}

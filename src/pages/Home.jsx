@@ -1,8 +1,8 @@
 import Header from "../components/Header";
 import banner from "../assets/banner.png";
-import Footer from "../components/Footer";
 import MascoteGif from "../components/MascoteGif";
 import Carousel from "../components/Carousel";
+import "../styles/Home.css";
 
 function Home() {
   return (
@@ -19,7 +19,6 @@ function Home() {
 
         <MascoteGif />
       </section>
-      <Footer />
     </div>
   );
 }

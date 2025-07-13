@@ -1,0 +1,98 @@
+.footer {
+  background-color: #a23d2a;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Garantias */
+.footer-guarantees {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.guarantee-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+  color: white;
+}
+
+.guarantee-item img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Barra vertical */
+.separator {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  user-select: none;
+}
+
+/* Texto global no footer */
+.footer p,
+.footer span,
+.footer-details p {
+  color: white !important;
+  font-size: 14px;
+  margin: 0.5rem 0;
+}
+
+/* Botões */
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-button:hover {
+  background-color: white;
+  color: #a23d2a;
+}
+
+/* Detalhes extras */
+.footer-details {
+  margin-top: 1rem;
+  font-size: 13px;
+  color: white;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .separator {
+    display: none;
+  }
+
+  .guarantee-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .guarantee-item img {
+    margin-bottom: 4px;
+  }
+}
