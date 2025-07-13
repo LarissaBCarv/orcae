@@ -1,16 +1,13 @@
 import Header from "../components/Header";
 import "../styles/About.css";
+import aboutImg from "../assets/about.png";
 
 function About() {
   return (
     <div>
       <Header />
       <div className="about-wrapper">
-        <img
-          src="./src/assets/about.png"
-          alt="About decorativo"
-          className="about-img"
-        />
+        <img src={aboutImg} alt="About decorativo" className="about-img" />
         <div className="about-container">
           <h1>Sobre o Orçaê</h1>
           <h2>O que é o Orçaê?</h2>
